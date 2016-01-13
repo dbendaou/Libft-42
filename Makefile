@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dbendaou <dbendaou@42.fr>                   +#+  +:+      +#+         #
+#    By: dbendaou <dbendaou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/24 14:57:19 by dbendaou          #+#    #+#              #
-#    Updated: 2015/12/04 17:28:49 by dbendaou         ###   ########.fr        #
+#    Updated: 2016/01/13 16:40:11 by dbendaou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,17 +20,27 @@ INCLUDES = -I ./libft.h
 
 OBJ= $(SRC:.c=.o)
 
+#COLORS
+C_GOOD	=	"\033[32mSUCCESS"
+C_ORAN	=	"\033[31mCleaning"
+C_RED	=	"\033[33mDelete"
+C_WHIT	= 	"\033[0m [ $(NAME) ]"
+C_BLUE	=	"\033[34;1mCompiling"
+
 $(NAME): libft.h
-		gcc $(FLAG) -c $(SRC) $(INCLUDES)
-		ar rc $(NAME) $(OBJ)
-		ranlib $(NAME)
+		@gcc $(FLAG) -c $(SRC) $(INCLUDES)
+		@ar rc $(NAME) $(OBJ)
+		@ranlib $(NAME)
+		@echo $(C_BLUE) $(C_WHIT) $(C_GOOD)
 
 all : $(NAME)
 
 clean :
-	rm -f $(OBJ)
+	@rm -f $(OBJ)
+	@echo $(C_ORAN) $(C_WHIT) $(C_GOOD)
 
 fclean : clean
-	rm -rf $(NAME)
+	@rm -rf $(NAME)
+	@echo $(C_RED) $(C_WHIT) $(C_GOOD)
 
 re :	fclean all

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbendaou <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dbendaou <dbendaou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 19:42:16 by dbendaou          #+#    #+#             */
-/*   Updated: 2015/11/29 19:47:28 by dbendaou         ###   ########.fr       */
+/*   Updated: 2016/01/13 16:35:46 by dbendaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strnew(size_t size)
 	{
 		while (*tmp)
 		{
-			tmp = NULL;
+			*tmp = '\0';
 			tmp++;
 		}
 		return (str);
