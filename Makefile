@@ -6,7 +6,11 @@
 #    By: dbendaou <dbendaou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/24 14:57:19 by dbendaou          #+#    #+#              #
+<<<<<<< HEAD
 #    Updated: 2016/03/16 14:40:31 by dbendaou         ###   ########.fr        #
+=======
+#    Updated: 2016/03/16 14:25:57 by dbendaou         ###   ########.fr        #
+>>>>>>> 5c7aee8fe3170cab4b2255975608fa0b01d72c19
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +27,11 @@ OBJ= $(SRC:.c=.o)
 #COLORS
 C_GOOD	=	"\033[32mSUCCESS"
 C_ORAN	=	"\033[33mCleaning "
+<<<<<<< HEAD
 C_RED	=	"\033[31mDelete   "
+=======
+C_RED	=	"\033[31mDelete	 "
+>>>>>>> 5c7aee8fe3170cab4b2255975608fa0b01d72c19
 C_WHIT	= 	"\033[0m [ $(NAME) ]"
 C_BLUE	=	"\033[34;1mCompiling"
 
