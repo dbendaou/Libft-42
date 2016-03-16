@@ -6,7 +6,7 @@
 #    By: dbendaou <dbendaou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/24 14:57:19 by dbendaou          #+#    #+#              #
-#    Updated: 2016/01/13 16:40:11 by dbendaou         ###   ########.fr        #
+#    Updated: 2016/03/16 14:25:57 by dbendaou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,8 +22,8 @@ OBJ= $(SRC:.c=.o)
 
 #COLORS
 C_GOOD	=	"\033[32mSUCCESS"
-C_ORAN	=	"\033[31mCleaning"
-C_RED	=	"\033[33mDelete"
+C_ORAN	=	"\033[33mCleaning "
+C_RED	=	"\033[31mDelete	 "
 C_WHIT	= 	"\033[0m [ $(NAME) ]"
 C_BLUE	=	"\033[34;1mCompiling"
 
