@@ -6,7 +6,7 @@
 /*   By: dbendaou <dbendaou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/26 17:56:35 by dbendaou          #+#    #+#             */
-/*   Updated: 2015/12/04 17:24:09 by dbendaou         ###   ########.fr       */
+/*   Updated: 2016/05/22 19:52:49 by dbendaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,7 @@ void				ft_putendl_fd(char const *s, int fd);
 void				ft_putnbr(int n);
 void				ft_putnbr_fd(int n, int fd);
 void				ft_putstr(char *str);
+void				ft_putnstr(int start, int end, char *str);
 void				ft_putstr_fd(char *str, int fd);
 char				*ft_strcat(char *restrict dest, const char *restrict src);
 char				*ft_strchr(char const *str, int c);
