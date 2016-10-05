@@ -6,7 +6,7 @@
 #    By: dbendaou <dbendaou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/24 14:57:19 by dbendaou          #+#    #+#              #
-#    Updated: 2016/05/22 19:58:19 by dbendaou         ###   ########.fr        #
+#    Updated: 2016/10/05 15:51:59 by dbendaou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,7 @@ clean :
 	@rm -f $(OBJ)
 	@echo $(C_ORAN) $(C_WHIT) $(C_GOOD)
 
-fclean : clean
+fclean : 
 	@rm -rf $(NAME)
 	@echo $(C_RED) $(C_WHIT) $(C_GOOD)
 
