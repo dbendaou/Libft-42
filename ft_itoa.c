@@ -27,7 +27,6 @@ char				*ft_itoa(int n)
 	int				index;
 
 	sign = ft_is_neg(n);
-	my_nb = (char *)malloc(sizeof(char) * ft_intlen(n) + sign);
 	if ((my_nb = (char *)malloc(sizeof(char) * ft_intlen(n) + sign)) == NULL)
 		return (NULL);
 	my_nb[0] = '0';
