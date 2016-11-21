@@ -27,6 +27,7 @@ typedef	struct		s_list
 long int			ft_abs(int nb);
 int					ft_atoi(char const *str);
 void				ft_bzero(void *s, size_t n);
+void				ft_error(char *str);
 int					ft_intlen(int nb);
 int					ft_isalnum(int c);
 int					ft_isalpha(int c);
