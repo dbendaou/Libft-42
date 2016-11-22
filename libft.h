@@ -90,7 +90,7 @@ char				**ft_strsplit(char const *s, char c);
 char				*ft_strstr(const char *s1, const char *s2);
 char				*ft_strsub(const char *s, unsigned int start, size_t len);
 char				*ft_strtrim(char const *s);
-size_t				ft_tablen(char **tab);
+size_t				ft_tablen(char **tableau);
 int					ft_tolower(int c);
 int					ft_toupper(int c);
 
