@@ -17,7 +17,7 @@ size_t	ft_tablen(char **tableau)
 	size_t	i;
 
 	i = 0;
-	while (tab[i])
+	while (tableau[i])
 		i++;
 	return (i);
 }
