@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-size_t	ft_tablen(char **tab)
+size_t	ft_tablen(char **tableau)
 {
 	size_t	i;
 
