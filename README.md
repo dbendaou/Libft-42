@@ -1,2 +1,3 @@
 # Libft-42
-Librairie de fonctions utile à 42 \\ dbendaou
+Premier projet de l'ecole 42. Celui-ci consiste à re-coder plusieurs fonctions de la lib c.
+
